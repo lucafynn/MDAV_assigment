@@ -1,0 +1,235 @@
+{
+  "k": 4,
+  "sse_breakdown": {
+    "Age": 13806.5,
+    "Sex": 16.0,
+    "ZIP": 62.0,
+    "Total": 13884.5
+  },
+  "cluster_details": [
+    {
+      "cluster_id": 0,
+      "size": 4,
+      "records": [
+        32,
+        4,
+        17,
+        22
+      ],
+      "original_records": [
+        33,
+        5,
+        18,
+        23
+      ],
+      "centroid": {
+        "Age": 58.0,
+        "Sex_Numeric": 0.5,
+        "Sex_Generalized": "F",
+        "ZIP": 53117.25
+      }
+    },
+    {
+      "cluster_id": 1,
+      "size": 4,
+      "records": [
+        34,
+        18,
+        7,
+        10
+      ],
+      "original_records": [
+        35,
+        19,
+        8,
+        11
+      ],
+      "centroid": {
+        "Age": 58.0,
+        "Sex_Numeric": 0.5,
+        "Sex_Generalized": "M",
+        "ZIP": 53117.25
+      }
+    },
+    {
+      "cluster_id": 2,
+      "size": 4,
+      "records": [
+        9,
+        19,
+        30,
+        8
+      ],
+      "original_records": [
+        10,
+        20,
+        31,
+        9
+      ],
+      "centroid": {
+        "Age": 38.5,
+        "Sex_Numeric": 0.0,
+        "Sex_Generalized": "M",
+        "ZIP": 53115.5
+      }
+    },
+    {
+      "cluster_id": 3,
+      "size": 4,
+      "records": [
+        15,
+        12,
+        14,
+        24
+      ],
+      "original_records": [
+        16,
+        13,
+        15,
+        25
+      ],
+      "centroid": {
+        "Age": 64.25,
+        "Sex_Numeric": 1.0,
+        "Sex_Generalized": "F",
+        "ZIP": 53117.75
+      }
+    },
+    {
+      "cluster_id": 4,
+      "size": 4,
+      "records": [
+        11,
+        36,
+        27,
+        28
+      ],
+      "original_records": [
+        12,
+        37,
+        28,
+        29
+      ],
+      "centroid": {
+        "Age": 38.5,
+        "Sex_Numeric": 0.0,
+        "Sex_Generalized": "F",
+        "ZIP": 53115.5
+      }
+    },
+    {
+      "cluster_id": 5,
+      "size": 4,
+      "records": [
+        38,
+        21,
+        26,
+        20
+      ],
+      "original_records": [
+        39,
+        22,
+        27,
+        21
+      ],
+      "centroid": {
+        "Age": 54.0,
+        "Sex_Numeric": 1.0,
+        "Sex_Generalized": "M",
+        "ZIP": 53116.0
+      }
+    },
+    {
+      "cluster_id": 6,
+      "size": 4,
+      "records": [
+        23,
+        5,
+        1,
+        2
+      ],
+      "original_records": [
+        24,
+        6,
+        2,
+        3
+      ],
+      "centroid": {
+        "Age": 43.5,
+        "Sex_Numeric": 0.0,
+        "Sex_Generalized": "M",
+        "ZIP": 53117.0
+      }
+    },
+    {
+      "cluster_id": 7,
+      "size": 4,
+      "records": [
+        35,
+        6,
+        0,
+        31
+      ],
+      "original_records": [
+        36,
+        7,
+        1,
+        32
+      ],
+      "centroid": {
+        "Age": 58.0,
+        "Sex_Numeric": 0.5,
+        "Sex_Generalized": "F",
+        "ZIP": 53117.25
+      }
+    },
+    {
+      "cluster_id": 8,
+      "size": 4,
+      "records": [
+        39,
+        16,
+        25,
+        13
+      ],
+      "original_records": [
+        40,
+        17,
+        26,
+        14
+      ],
+      "centroid": {
+        "Age": 54.0,
+        "Sex_Numeric": 1.0,
+        "Sex_Generalized": "M",
+        "ZIP": 53116.0
+      }
+    },
+    {
+      "cluster_id": 9,
+      "size": 4,
+      "records": [
+        3,
+        29,
+        33,
+        37
+      ],
+      "original_records": [
+        4,
+        30,
+        34,
+        38
+      ],
+      "centroid": {
+        "Age": 33.5,
+        "Sex_Numeric": 1.0,
+        "Sex_Generalized": "F",
+        "ZIP": 53117.75
+      }
+    }
+  ],
+  "generalization_info": {
+    "method": "most_frequent_categorical",
+    "explanation": "Categorical attributes generalized using most frequent value in cluster"
+  }
+}
